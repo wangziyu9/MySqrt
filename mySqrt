@@ -5,7 +5,6 @@ def MySqrt(c):
         print(i, end = ' ')
         i = i + 1
         y = x * x - c
-        #print(y, end = ' ')
         if abs(y) < 0.0000000000001:
             print('\n', '%0.6f' % x, '\n')
             break
