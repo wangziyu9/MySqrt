@@ -26,7 +26,7 @@ def getPome(fileName):
 def selFile(fileName):
     try:
         (name, ext) = fileName.split(".")
-        if ext == 'c' or ext == 'cpp' or ext == 'py':
+        if ext == 'c' or ext == 'cpp' or ext == 'py' or ext == 'h':
             return True
         else:
             return False
